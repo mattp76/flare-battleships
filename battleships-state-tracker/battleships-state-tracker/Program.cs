@@ -38,7 +38,7 @@
 
 			Console.WriteLine($"Welcome {name} here is your board with battleships in place\r\n\r\n");
 
-			while (player.getHitCount() < 17)
+			while (player.GetHitCount() < 17)
 			{
 				if (player.GameComplete())
 				{
@@ -50,7 +50,7 @@
 			}
 
 			Console.WriteLine($"Congratulations, {name} ! You Win!\r\n");
-			Console.WriteLine($"You missed: {player.getMissCount()} time(s)\r\n");
+			Console.WriteLine($"You missed: {player.GetMissCount()} time(s)\r\n");
 
 			if (player.GameComplete())
 			{

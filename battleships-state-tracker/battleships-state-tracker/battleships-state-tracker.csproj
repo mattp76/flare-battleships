@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\BasePlayer.cs" />
     <Compile Include="Domain\Board.cs" />
     <Compile Include="Domain\Player.cs" />
     <Compile Include="Domain\ShipDetail.cs" />

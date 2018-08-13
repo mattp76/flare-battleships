@@ -2,9 +2,9 @@
 {
 	public interface IPlayer
 	{
-		int getHitCount();
+		int GetHitCount();
 
-		int getMissCount();
+		int GetMissCount();
 
 		void AskCoordinates();
 
