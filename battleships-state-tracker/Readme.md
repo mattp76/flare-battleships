@@ -1,6 +1,7 @@
 # FlareHR Battleships
 
 ##Synopsis
+
 The task is to implement a Battleship state-tracker for a single player that must support the following logic: 
 
 # Create a board 
@@ -24,7 +25,9 @@ There are one or two NUGET packages to help my along, such as AutoFac and Log4Ne
 cd battleships-state-tracker.Tests
 dotnet test
 ```
-PLEASE NOTE. I have only setup the structure for the test projects. No tests have been added. I choose to use the likes of Autofac (IOC) for potential Mocking / Unit Testing.
+PLEASE NOTE. I have only setup the structure for the test project. No tests have been added. I choose to use the likes of Autofac (IOC) for potential Mocking / Unit Testing.
+
+I would use integration for testing between objects and unit testing for testing specific units of code (isolation).
 
 
 ##Contributors
